@@ -1,6 +1,4 @@
 import "../styles/toggle.css";
-import Sun from "../assets/sun.png";
-import Moon from "../assets/moon.png";
 
 const Toggle = () => {
 	return (
