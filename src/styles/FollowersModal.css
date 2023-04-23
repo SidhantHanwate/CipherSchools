@@ -1,0 +1,71 @@
+.cipher__followersModal_content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	padding: 0 20px;
+}
+
+.cipher__followersModal-list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+}
+
+.cipher__followersModal-listItem {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+	padding: 10px 0;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.cipher__followersModal-listItemName {
+	font-size: 20px;
+	font-weight: 500;
+	color: #2c3d4f;
+}
+
+.cipher__followersModal-listItemEmail {
+	font-size: 18px;
+	font-weight: 400;
+	color: #2c3d4f;
+}
+
+.cipher__followersModal_divider {
+	width: 100%;
+	height: 3px;
+	background-color: #e6e6e6;
+	margin: 20px 0;
+}
+
+.cipher__followersModal-profile {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: fit-content;
+}
+
+.cipher__followersModal-image {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 400px) {
+	.cipher__followersModal-listItem {
+		flex-direction: column;
+	}
+}
