@@ -1,0 +1,65 @@
+.cipher__sidebar {
+	position: fixed;
+	top: 60px;
+	left: 0;
+	width: 70px;
+	height: 100%;
+	background-color: #fff;
+	z-index: 100;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	border: 1px solid #e0e0e0;
+}
+
+.cipher__sidebar-up {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+	height: 75%;
+}
+
+.cipher__sidebar-components {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.cipher__sidebar-logo {
+	font-size: 20px;
+	color: black;
+	cursor: pointer;
+}
+
+.cipher__sidebar-logoTitle {
+	font-size: 10px;
+	color: black;
+	cursor: pointer;
+}
+
+.cipher__sidebar-down {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin-top: 70px;
+}
+
+.cipher__sidebar-divider {
+	width: 100%;
+	height: 1px;
+	background-color: #e0e0e0;
+}
+
+.cipher__sidebar-components:hover {
+	background-color: #f8d7da;
+	border-radius: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+	.cipher__sidebar {
+		display: none;
+	}
+}

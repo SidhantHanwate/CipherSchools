@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/navbar.css";
-import Toggle from "../components/Toggle";
+import Toggle from "./Toggle";
 import Logo from "../assets/Logo.png";
 import pf from "../assets/pf.jpeg";
 import points from "../assets/points.svg";
